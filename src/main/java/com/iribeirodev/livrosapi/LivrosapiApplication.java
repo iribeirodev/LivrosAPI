@@ -10,5 +10,6 @@ public class LivrosapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LivrosapiApplication.class, args);
+		System.out.println("Running LivrosAPI");
 	}
 }
