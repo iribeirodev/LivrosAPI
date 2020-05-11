@@ -20,20 +20,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "Livro")
+@Table(name = "livro", catalog = "test")
 public class Livro implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="Id")
 	private Long id;
 	
-	@Column(name="ISBN")
 	private String isbn;
 	
-	@Column(name="Titulo")
 	private String titulo;
 	
-	@Column(name="AnoOriginal")
 	private int anooriginal;
 
 }
