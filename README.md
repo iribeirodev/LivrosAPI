@@ -29,8 +29,7 @@ Run As -> Maven Build -> Goals: spring-boot:run
 ##### Obter lista de livros
 Request: GET http://localhost:8080/livros
 
-![ScreenShot]
-(https://i.postimg.cc/15qRpcWw/Get.png)
+![Alt text](https://i.postimg.cc/15qRpcWw/Get.png "Optional title")
 
 ##### Incluir Livro
 Request: POST http://localhost:8080/livros
