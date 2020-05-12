@@ -29,25 +29,22 @@ Run As -> Maven Build -> Goals: spring-boot:run
 ##### Obter lista de livros
 Request: GET http://localhost:8080/livros
 
-![Alt text](https://i.postimg.cc/15qRpcWw/Get.png "Optional title")
+![Alt text](https://i.postimg.cc/15qRpcWw/Get.png "Insomnia")
 
 ##### Incluir Livro
 Request: POST http://localhost:8080/livros
 
-![ScreenShot]
-(https://i.postimg.cc/2SNkTbJJ/Post.png)
+![Alt text](https://i.postimg.cc/2SNkTbJJ/Post.png "Insomnia")
 
 ##### Atualizar por Id
 Request: PUT http://localhost:8080/livros/{id}
 
-![ScreenShot]
-(https://i.postimg.cc/Bn5qzZfv/Put.png)
+![Alt text](https://i.postimg.cc/Bn5qzZfv/Put.png "Insomnia")
 
 ##### Excluir por Id
 Request: DELETE http://localhost:8080/livros/{id}
 
-![ScreenShot]
-(https://i.postimg.cc/HWKscPtT/Delete.png)
+![Alt text](https://i.postimg.cc/HWKscPtT/Delete.png"Insomnia")
 
 
 
