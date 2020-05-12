@@ -28,22 +28,26 @@ Run As -> Maven Build -> Goals: spring-boot:run
 ### REST API
 ##### Obter lista de livros
 Request: GET http://localhost:8080/livros
-![Insomnia]
+
+![ScreenShot]
 (https://i.postimg.cc/15qRpcWw/Get.png)
 
 ##### Incluir Livro
 Request: POST http://localhost:8080/livros
-![Insomnia]
+
+![ScreenShot]
 (https://i.postimg.cc/2SNkTbJJ/Post.png)
 
 ##### Atualizar por Id
 Request: PUT http://localhost:8080/livros/{id}
-![Insomnia]
+
+![ScreenShot]
 (https://i.postimg.cc/Bn5qzZfv/Put.png)
 
 ##### Excluir por Id
 Request: DELETE http://localhost:8080/livros/{id}
-![Insomnia]
+
+![ScreenShot]
 (https://i.postimg.cc/HWKscPtT/Delete.png)
 
 
